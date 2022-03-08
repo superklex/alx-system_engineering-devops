@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'ibase=16; obase=10; $DECIMAL' | printf "\n"
+printf %x'\n' $DECIMAL
